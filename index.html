@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Basic Bootstrap File</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+<div class="row">
+<section class="col-xs-12">
+
+<form class="form-horizontal">
+
+<div class="introduction">
+<div class="col-sm-10 col-sm-offset-2">
+<h1>Philippines</h1>
+<p>Welcome to the <a href="https://en.wikipedia.org/wiki/Philippines">Philippines</a>, a sovereign island country in Southeast Asia. This country has a rich history, tropical climate and colorful culture. Let's see how much you know about it.</p>
+    
+<p>Take our quiz below to see how well you know the Philippines. Good luck!</p>
+</div>
+</div>
+<div class="form-group">
+    <label class="col-sm-2 control-label" for="inputCapital">What is the capital of the Philippines?</label>
+    <div class="col-sm-10">
+    <input class="form-control" type="text" name="capital" id="inputCapital" placeholder="Capital">
+    </div>
+</div>
+    
+<div class="form-group">
+    <label class="col-sm-2 control-label" for="inputLanguage">What is the language of the Philippines?</label>
+    <div class="col-sm-10">
+    <input class="form-control" type="text" name="president" id="inputLanguage" placeholder="Language">
+    </div>
+</div>
+    
+<div class="form-group">
+    <label class="col-sm-2 control-label" for="inputDescription">What is lumpia?</label>
+    <div class="col-sm-10">
+    <textarea class="form-control" name="lumpia_entry" id="inputDescription" rows="5" placeholder="Describe lumpia"></textarea>
+    </div> 
+</div>
+
+<div class="form-group">
+<div class="radio">
+<div class="col-sm-10 col-sm-offset-2">
+    <p>The Philippines has ___ many islands.</p>
+        <label><input type="radio" name="islands" id="7" checked> 7</label>
+        <label><input type="radio" name="islands" id="71" checked> 71</label>
+        <label><input type="radio" name="islands" id="710" checked> 710</label>
+        <label><input type="radio" name="islands" id="7107" checked> 7,107</label>
+</div>
+</div>
+</div>
+    
+<div class="form-group">
+<div class="checkbox">
+<div class="col-sm-10 col-sm-offset-2">
+    <p>Which of the following are part of the three main geographic divisions in the Philippines.</p>
+        <label><input type="checkbox" name="regions" id="luzon" value="luzon"> Luzon</label>
+        <label><input type="checkbox" name="regions" id="visayas" value="visayas"> Visayas</label>
+        <label><input type="checkbox" name="regions" id="valenzuela" value="valenzuela"> Valenzuela</label>
+        <label><input type="checkbox" name="regions" id="mindanao" value="mindanao"> Mindanao</label>
+</div> 
+</div>
+</div>
+    
+<div class="form-group">
+<div class="menu">   
+<div class="col-sm-10 col-sm-offset-2">
+<p>Who is the president of the Philippines?</p>
+<label>
+    <select name="President">
+        <option id="franklin">Franklin Drilon</option>
+        <option id="george">George Washington</option>
+        <option id="maria">Maria Lourdes Sereno</option>
+        <option id="barack">Barack Obama</option>
+        <option id="benigno">Benigno S. Aquino III</option>
+        <option id="feliciano">Feliciano Belmonte, Jr.</option>
+        <option id="jejomar">Jejomar Binay</option>
+        <option id="felizardo">Felizardo Valenzuela</option>
+    </select>
+</label>
+</div> 
+</div>
+</div>
+    
+    
+<div class="form-group">
+<div class="buttons">
+<div class="col-sm-10 col-sm-offset-2">
+        <input class="btn btn-default" type="submit" value="Submit">
+        <input class="btn btn-default" type="reset" value="Start Over">
+    </div>
+    </div>
+    </div>
+ 
+</form>
+
+</section>
+</div>
+</div>
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
